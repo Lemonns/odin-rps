@@ -39,7 +39,7 @@ function playRound(playerChoice, computerChoice) {
 
 function game() {
     for (let i = 0; i < 5; i++) {
-        let playerChoice = prompt("rock, paper or scissors").toLocaleLowerCase()
+        let playerChoice = prompt("rock, paper or scissors").toLowerCase()
         playRound(playerChoice, random_choice(choices))
     }
 }
